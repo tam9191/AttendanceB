@@ -68,6 +68,18 @@ p {
   margin-bottom: 1em;
 }
 
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+/* フッター情報 */
 #footer {
   border-top: 1px solid black;
 }
@@ -79,9 +91,6 @@ div.left {
 
 .text-right {
   list-style: none;
-  
 }
 
-li{
-}
 
