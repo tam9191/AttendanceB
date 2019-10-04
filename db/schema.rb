@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20191004031409) do
+ActiveRecord::Schema.define(version: 20191004051215) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -20,6 +20,9 @@ ActiveRecord::Schema.define(version: 20191004031409) do
     t.string "password_digest"
     t.string "remember_digest"
     t.boolean "admin"
+    t.string "department"
+    t.datetime "basic_time", default: "2019-10-03 23:00:00"
+    t.datetime "work_time", default: "2019-10-03 22:30:00"
   end
 
 end
